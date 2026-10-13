@@ -1,0 +1,50 @@
+[
+  {
+    "model": "bm25",
+    "pipeline": "none",
+    "ndcg": 0.18612482327731342,
+    "recall": 0.3
+  },
+  {
+    "model": "dense",
+    "pipeline": "none",
+    "ndcg": 1.0,
+    "recall": 1.0
+  },
+  {
+    "model": "bm25",
+    "pipeline": "minimal",
+    "ndcg": 0.18612482327731342,
+    "recall": 0.3
+  },
+  {
+    "model": "dense",
+    "pipeline": "minimal",
+    "ndcg": 1.0,
+    "recall": 1.0
+  },
+  {
+    "model": "bm25",
+    "pipeline": "standard",
+    "ndcg": 0.632111684340725,
+    "recall": 0.9
+  },
+  {
+    "model": "dense",
+    "pipeline": "standard",
+    "ndcg": 1.0,
+    "recall": 1.0
+  },
+  {
+    "model": "bm25",
+    "pipeline": "aggressive",
+    "ndcg": 0.9839441578296375,
+    "recall": 1.0
+  },
+  {
+    "model": "dense",
+    "pipeline": "aggressive",
+    "ndcg": 1.0,
+    "recall": 1.0
+  }
+]

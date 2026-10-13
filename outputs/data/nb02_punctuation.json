@@ -1,0 +1,14 @@
+[
+  {
+    "original": "Let's eat, grandma!",
+    "strip_punctuation": "Let s eat grandma"
+  },
+  {
+    "original": "Let's eat grandma!",
+    "strip_punctuation": "Let s eat grandma"
+  },
+  {
+    "original": "the price is $9.99, not $99",
+    "strip_punctuation": "the price is 9 99 not 99"
+  }
+]

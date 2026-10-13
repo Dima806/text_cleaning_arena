@@ -1,0 +1,26 @@
+[
+  {
+    "if": "Classic bag-of-words / TF-IDF model",
+    "then": "Standard cleaning usually helps — apply it."
+  },
+  {
+    "if": "Transformer or any pretrained model",
+    "then": "Minimal cleaning only; keep casing, stopwords, punctuation."
+  },
+  {
+    "if": "Sparse retrieval (BM25)",
+    "then": "Stemming and normalization help (more term overlap)."
+  },
+  {
+    "if": "Dense retrieval",
+    "then": "Feed raw text the encoder expects."
+  },
+  {
+    "if": "Sentiment / negation / tone carries the label",
+    "then": "Never remove stopwords (it deletes not/no/never)."
+  },
+  {
+    "if": "Any step, any model",
+    "then": "Measure it against raw text first — cleaning is irreversible."
+  }
+]

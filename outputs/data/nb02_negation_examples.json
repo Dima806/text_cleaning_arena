@@ -1,0 +1,26 @@
+[
+  {
+    "original": "not good",
+    "remove_stopwords": "good",
+    "standard": "good",
+    "deleted": "not"
+  },
+  {
+    "original": "I would never recommend this",
+    "remove_stopwords": "would recommend",
+    "standard": "would recommend",
+    "deleted": "never"
+  },
+  {
+    "original": "there is no better film this year",
+    "remove_stopwords": "better film year",
+    "standard": "better film year",
+    "deleted": "no"
+  },
+  {
+    "original": "it was not a waste of time",
+    "remove_stopwords": "waste time",
+    "standard": "waste time",
+    "deleted": "not"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "original": "The Movie was NOT great, I would never watch it again!",
+    "none": "The Movie was NOT great, I would never watch it again!",
+    "minimal": "The Movie was NOT great, I would never watch it again!",
+    "standard": "movie great, would watch",
+    "aggressive": "movi great would watch"
+  },
+  {
+    "original": "Apple shares rose as the US economy grew 3% in March.",
+    "none": "Apple shares rose as the US economy grew 3% in March.",
+    "minimal": "Apple shares rose as the US economy grew 3% in March.",
+    "standard": "apple share rose economy grew 3% march.",
+    "aggressive": "appl share rose economi grew march"
+  },
+  {
+    "original": "Running shoes: the studies show they help runners run faster.",
+    "none": "Running shoes: the studies show they help runners run faster.",
+    "minimal": "Running shoes: the studies show they help runners run faster.",
+    "standard": "running shoe: study show help runner run faster.",
+    "aggressive": "run shoe studi show help runner run faster"
+  }
+]

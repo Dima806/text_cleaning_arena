@@ -1,0 +1,30 @@
+[
+  {
+    "task": "sentiment",
+    "model": "tfidf+logreg",
+    "pipeline": "none",
+    "accuracy": 0.9875,
+    "macro_f1": 0.987450980392157
+  },
+  {
+    "task": "sentiment",
+    "model": "transformer",
+    "pipeline": "none",
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  {
+    "task": "topic",
+    "model": "tfidf+logreg",
+    "pipeline": "minimal",
+    "accuracy": 0.7571428571428571,
+    "macro_f1": 0.7444444444444445
+  },
+  {
+    "task": "topic",
+    "model": "transformer",
+    "pipeline": "minimal",
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  }
+]

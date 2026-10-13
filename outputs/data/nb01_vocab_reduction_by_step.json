@@ -1,0 +1,51 @@
+[
+  {
+    "step": "normalize_whitespace",
+    "vocab_before": 81,
+    "vocab_after": 81,
+    "vocab_reduction_pct": 0.0,
+    "negations_removed": 0
+  },
+  {
+    "step": "lowercase",
+    "vocab_before": 81,
+    "vocab_after": 81,
+    "vocab_reduction_pct": 0.0,
+    "negations_removed": 0
+  },
+  {
+    "step": "remove_stopwords",
+    "vocab_before": 81,
+    "vocab_after": 65,
+    "vocab_reduction_pct": 19.8,
+    "negations_removed": 33
+  },
+  {
+    "step": "strip_punctuation",
+    "vocab_before": 81,
+    "vocab_after": 81,
+    "vocab_reduction_pct": 0.0,
+    "negations_removed": 0
+  },
+  {
+    "step": "remove_numbers",
+    "vocab_before": 81,
+    "vocab_after": 81,
+    "vocab_reduction_pct": 0.0,
+    "negations_removed": 0
+  },
+  {
+    "step": "stem",
+    "vocab_before": 81,
+    "vocab_after": 79,
+    "vocab_reduction_pct": 2.5,
+    "negations_removed": 0
+  },
+  {
+    "step": "lemmatize",
+    "vocab_before": 81,
+    "vocab_after": 81,
+    "vocab_reduction_pct": 0.0,
+    "negations_removed": 0
+  }
+]

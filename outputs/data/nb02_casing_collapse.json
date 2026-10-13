@@ -1,0 +1,26 @@
+[
+  {
+    "token_a": "US",
+    "token_b": "us",
+    "lowercased": "us",
+    "collapsed": true
+  },
+  {
+    "token_a": "Apple",
+    "token_b": "apple",
+    "lowercased": "apple",
+    "collapsed": true
+  },
+  {
+    "token_a": "March",
+    "token_b": "march",
+    "lowercased": "march",
+    "collapsed": true
+  },
+  {
+    "token_a": "Polish",
+    "token_b": "polish",
+    "lowercased": "polish",
+    "collapsed": true
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "task": "sentiment",
+    "model": "tfidf+logreg",
+    "pipeline": "none",
+    "accuracy": 0.9875,
+    "macro_f1": 0.987450980392157
+  },
+  {
+    "task": "sentiment",
+    "model": "transformer",
+    "pipeline": "none",
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  {
+    "task": "sentiment",
+    "model": "tfidf+logreg",
+    "pipeline": "minimal",
+    "accuracy": 0.9875,
+    "macro_f1": 0.987450980392157
+  },
+  {
+    "task": "sentiment",
+    "model": "transformer",
+    "pipeline": "minimal",
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  {
+    "task": "sentiment",
+    "model": "tfidf+logreg",
+    "pipeline": "standard",
+    "accuracy": 0.975,
+    "macro_f1": 0.975
+  },
+  {
+    "task": "sentiment",
+    "model": "transformer",
+    "pipeline": "standard",
+    "accuracy": 0.9875,
+    "macro_f1": 0.987450980392157
+  },
+  {
+    "task": "sentiment",
+    "model": "tfidf+logreg",
+    "pipeline": "aggressive",
+    "accuracy": 0.9625,
+    "macro_f1": 0.9624509803921569
+  },
+  {
+    "task": "sentiment",
+    "model": "transformer",
+    "pipeline": "aggressive",
+    "accuracy": 0.9625,
+    "macro_f1": 0.9624509803921569
+  },
+  {
+    "task": "topic",
+    "model": "tfidf+logreg",
+    "pipeline": "none",
+    "accuracy": 0.7571428571428571,
+    "macro_f1": 0.7444444444444445
+  },
+  {
+    "task": "topic",
+    "model": "transformer",
+    "pipeline": "none",
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  {
+    "task": "topic",
+    "model": "tfidf+logreg",
+    "pipeline": "minimal",
+    "accuracy": 0.7571428571428571,
+    "macro_f1": 0.7444444444444445
+  },
+  {
+    "task": "topic",
+    "model": "transformer",
+    "pipeline": "minimal",
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  {
+    "task": "topic",
+    "model": "tfidf+logreg",
+    "pipeline": "standard",
+    "accuracy": 0.65,
+    "macro_f1": 0.65
+  },
+  {
+    "task": "topic",
+    "model": "transformer",
+    "pipeline": "standard",
+    "accuracy": 1.0,
+    "macro_f1": 1.0
+  },
+  {
+    "task": "topic",
+    "model": "tfidf+logreg",
+    "pipeline": "aggressive",
+    "accuracy": 0.65,
+    "macro_f1": 0.6522222222222223
+  },
+  {
+    "task": "topic",
+    "model": "transformer",
+    "pipeline": "aggressive",
+    "accuracy": 0.9178571428571429,
+    "macro_f1": 0.9199999999999999
+  }
+]

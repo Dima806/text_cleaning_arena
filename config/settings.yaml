@@ -1,0 +1,25 @@
+# text_cleaning_arena configuration
+# Cleaning steps, models, tasks, and seeds. Loaded by src/config.py.
+
+seed: 42
+
+model:
+  # CPU-friendly sentence encoder, pinned by revision for reproducibility.
+  name: sentence-transformers/all-MiniLM-L6-v2
+  revision: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+  batch_size: 32
+
+pipelines:
+  - none
+  - minimal
+  - standard
+  - aggressive
+
+tasks:
+  - sentiment
+  - topic
+  - retrieval
+
+evaluation:
+  test_size: 0.3
+  retrieval_k: 10

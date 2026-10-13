@@ -1,0 +1,48 @@
+{
+  "queries": [
+    "running marathons",
+    "baking breads",
+    "investing stocks",
+    "painting portraits",
+    "racing bikes"
+  ],
+  "documents": [
+    "A dedicated runner runs a full marathon every single spring.",
+    "Her marathon pace improved after she chose to run at dawn.",
+    "I keep running late for the morning bus to the office.",
+    "The baker baked a crusty sourdough loaf of bread overnight.",
+    "A simple recipe to bake fluffy flatbread at home.",
+    "He was baking in the summer heat on the crowded beach.",
+    "A patient investor who invested early saw her stock grow.",
+    "To invest wisely, diversify and hold each stock for years.",
+    "Investing your energy into office gossip is a total waste.",
+    "The painter painted a striking portrait in bold oils.",
+    "She loves to paint quiet landscapes and the odd portrait.",
+    "The painting on the wall was crooked and badly lit.",
+    "The racer raced his bike down the steep mountain trail.",
+    "A fast bike and a smooth road make for a great race.",
+    "Thoughts kept racing through her mind late at night."
+  ],
+  "qrels": {
+    "0": [
+      0,
+      1
+    ],
+    "1": [
+      3,
+      4
+    ],
+    "2": [
+      6,
+      7
+    ],
+    "3": [
+      9,
+      10
+    ],
+    "4": [
+      12,
+      13
+    ]
+  }
+}

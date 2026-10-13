@@ -1,0 +1,44 @@
+[
+  {
+    "word": "studies",
+    "stem": "studi",
+    "lemmatize": "study",
+    "differ": true
+  },
+  {
+    "word": "running",
+    "stem": "run",
+    "lemmatize": "running",
+    "differ": true
+  },
+  {
+    "word": "happiness",
+    "stem": "happi",
+    "lemmatize": "happiness",
+    "differ": true
+  },
+  {
+    "word": "universities",
+    "stem": "univers",
+    "lemmatize": "university",
+    "differ": true
+  },
+  {
+    "word": "organization",
+    "stem": "organ",
+    "lemmatize": "organization",
+    "differ": true
+  },
+  {
+    "word": "flies",
+    "stem": "fli",
+    "lemmatize": "fly",
+    "differ": true
+  },
+  {
+    "word": "better",
+    "stem": "better",
+    "lemmatize": "better",
+    "differ": false
+  }
+]

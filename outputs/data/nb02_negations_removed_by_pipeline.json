@@ -1,0 +1,22 @@
+[
+  {
+    "pipeline": "none",
+    "docs_damaged": 0,
+    "negations_removed_total": 0
+  },
+  {
+    "pipeline": "minimal",
+    "docs_damaged": 0,
+    "negations_removed_total": 0
+  },
+  {
+    "pipeline": "standard",
+    "docs_damaged": 33,
+    "negations_removed_total": 33
+  },
+  {
+    "pipeline": "aggressive",
+    "docs_damaged": 33,
+    "negations_removed_total": 33
+  }
+]

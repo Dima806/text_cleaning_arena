@@ -1,0 +1,21 @@
+{
+  "text": "The US release of Apple Vision Pro was NOT a flop, I would never doubt them!",
+  "pipelines": [
+    {
+      "pipeline": "none",
+      "result": "The US release of Apple Vision Pro was NOT a flop, I would never doubt them!"
+    },
+    {
+      "pipeline": "minimal",
+      "result": "The US release of Apple Vision Pro was NOT a flop, I would never doubt them!"
+    },
+    {
+      "pipeline": "standard",
+      "result": "release apple vision pro flop, would doubt"
+    },
+    {
+      "pipeline": "aggressive",
+      "result": "releas appl vision pro flop would doubt"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "model": "tfidf+logreg",
+    "pipeline": "none",
+    "accuracy": 0.9875,
+    "macro_f1": 0.987450980392157,
+    "n_splits": 5
+  },
+  {
+    "model": "tfidf+logreg",
+    "pipeline": "minimal",
+    "accuracy": 0.9875,
+    "macro_f1": 0.987450980392157,
+    "n_splits": 5
+  },
+  {
+    "model": "tfidf+logreg",
+    "pipeline": "standard",
+    "accuracy": 0.975,
+    "macro_f1": 0.975,
+    "n_splits": 5
+  },
+  {
+    "model": "tfidf+logreg",
+    "pipeline": "aggressive",
+    "accuracy": 0.9625,
+    "macro_f1": 0.9624509803921569,
+    "n_splits": 5
+  }
+]

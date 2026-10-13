@@ -1,0 +1,38 @@
+[
+  {
+    "text": "The movie was not good.",
+    "label": 0,
+    "phenomenon": "negation",
+    "note": "Stopword removal deletes 'not', turning a negative into 'good'."
+  },
+  {
+    "text": "I would never recommend this.",
+    "label": 0,
+    "phenomenon": "negation",
+    "note": "Dropping 'never' leaves 'would recommend', flipping the label."
+  },
+  {
+    "text": "This is no masterpiece.",
+    "label": 0,
+    "phenomenon": "negation",
+    "note": "Removing 'no' leaves the praise word 'masterpiece' standing alone."
+  },
+  {
+    "text": "Apple fell as the US dollar rose.",
+    "label": 1,
+    "phenomenon": "casing",
+    "note": "Lowercasing collapses 'Apple'->'apple' and 'US'->'us'."
+  },
+  {
+    "text": "Let's eat, Grandma.",
+    "label": 1,
+    "phenomenon": "punctuation",
+    "note": "Stripping the comma erases the difference from 'Let's eat Grandma'."
+  },
+  {
+    "text": "The studies were inconclusive :(",
+    "label": 0,
+    "phenomenon": "emoticon",
+    "note": "Punctuation stripping deletes the ':(' sentiment cue."
+  }
+]

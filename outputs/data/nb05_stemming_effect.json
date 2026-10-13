@@ -1,0 +1,14 @@
+[
+  {
+    "model": "bm25",
+    "raw(none)": 0.18612482327731342,
+    "aggressive": 0.9839441578296375,
+    "aggressive_minus_raw": 0.7978193345523241
+  },
+  {
+    "model": "dense",
+    "raw(none)": 1.0,
+    "aggressive": 1.0,
+    "aggressive_minus_raw": 0.0
+  }
+]

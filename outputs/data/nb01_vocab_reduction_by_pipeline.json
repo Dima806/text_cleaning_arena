@@ -1,0 +1,30 @@
+[
+  {
+    "pipeline": "none",
+    "vocab_before": 81,
+    "vocab_after": 81,
+    "vocab_reduction_pct": 0.0,
+    "negations_removed": 0
+  },
+  {
+    "pipeline": "minimal",
+    "vocab_before": 81,
+    "vocab_after": 81,
+    "vocab_reduction_pct": 0.0,
+    "negations_removed": 0
+  },
+  {
+    "pipeline": "standard",
+    "vocab_before": 81,
+    "vocab_after": 65,
+    "vocab_reduction_pct": 19.8,
+    "negations_removed": 33
+  },
+  {
+    "pipeline": "aggressive",
+    "vocab_before": 81,
+    "vocab_after": 63,
+    "vocab_reduction_pct": 22.2,
+    "negations_removed": 33
+  }
+]

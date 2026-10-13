@@ -1,0 +1,33 @@
+{
+  "sentence": "The Movie was NOT great, I would never watch these 2 films again!",
+  "steps": [
+    {
+      "step": "normalize_whitespace",
+      "result": "The Movie was NOT great, I would never watch these 2 films again!"
+    },
+    {
+      "step": "lowercase",
+      "result": "the movie was not great, i would never watch these 2 films again!"
+    },
+    {
+      "step": "remove_stopwords",
+      "result": "Movie great, would watch 2 films"
+    },
+    {
+      "step": "strip_punctuation",
+      "result": "The Movie was NOT great I would never watch these 2 films again"
+    },
+    {
+      "step": "remove_numbers",
+      "result": "The Movie was NOT great, I would never watch these films again!"
+    },
+    {
+      "step": "stem",
+      "result": "the movi wa not great, i would never watch these 2 film again!"
+    },
+    {
+      "step": "lemmatize",
+      "result": "The Movie wa NOT great, I would never watch these 2 film again!"
+    }
+  ]
+}

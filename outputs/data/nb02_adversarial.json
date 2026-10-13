@@ -1,0 +1,50 @@
+[
+  {
+    "phenomenon": "negation",
+    "original": "The movie was not good.",
+    "standard": "movie good.",
+    "aggressive": "movi good",
+    "deleted_negations": "not",
+    "note": "Stopword removal deletes 'not', turning a negative into 'good'."
+  },
+  {
+    "phenomenon": "negation",
+    "original": "I would never recommend this.",
+    "standard": "would recommend",
+    "aggressive": "would recommend",
+    "deleted_negations": "never",
+    "note": "Dropping 'never' leaves 'would recommend', flipping the label."
+  },
+  {
+    "phenomenon": "negation",
+    "original": "This is no masterpiece.",
+    "standard": "masterpiece.",
+    "aggressive": "masterpiec",
+    "deleted_negations": "no",
+    "note": "Removing 'no' leaves the praise word 'masterpiece' standing alone."
+  },
+  {
+    "phenomenon": "casing",
+    "original": "Apple fell as the US dollar rose.",
+    "standard": "apple fell dollar rose.",
+    "aggressive": "appl fell dollar rose",
+    "deleted_negations": "",
+    "note": "Lowercasing collapses 'Apple'->'apple' and 'US'->'us'."
+  },
+  {
+    "phenomenon": "punctuation",
+    "original": "Let's eat, Grandma.",
+    "standard": "let's eat, grandma.",
+    "aggressive": "let eat grandma",
+    "deleted_negations": "",
+    "note": "Stripping the comma erases the difference from 'Let's eat Grandma'."
+  },
+  {
+    "phenomenon": "emoticon",
+    "original": "The studies were inconclusive :(",
+    "standard": "study inconclusive :(",
+    "aggressive": "studi inconclus",
+    "deleted_negations": "",
+    "note": "Punctuation stripping deletes the ':(' sentiment cue."
+  }
+]
